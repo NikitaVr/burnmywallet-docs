@@ -6,7 +6,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "🔥 Burn My Wallet Docs ",
+  title: "🔥 Burn My Wallet Docs",
   tagline: "Protect your Dapp with a few lines of code",
   url: "https://docs.burnmywallet.com",
   baseUrl: "/",
@@ -16,8 +16,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "nikitavr", // Usually your GitHub org/user name.
+  projectName: "burnmywallet", // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
