@@ -5,7 +5,7 @@ import styles from "./styles.module.css";
 const FeatureList = [
   {
     title: "Easy to Use",
-    Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
+    Svg: require("@site/static/img/undraw_light_the_fire_gt58.svg").default,
     description: (
       <>
         Burn My Wallet makes it easy to check if a wallet has been reported as
@@ -15,7 +15,7 @@ const FeatureList = [
   },
   {
     title: "Free API",
-    Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
+    Svg: require("@site/static/img/undraw_fireworks_re_2xi7.svg").default,
     description: (
       <>
         We provide an easy API to check if a wallet is burned that you can call
@@ -25,7 +25,7 @@ const FeatureList = [
   },
   {
     title: "Cross Chain",
-    Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
+    Svg: require("@site/static/img/undraw_connected_world_wuay.svg").default,
     description: (
       <>
         We support Ethereum, Polygon, and coming to many more. Let's add more
