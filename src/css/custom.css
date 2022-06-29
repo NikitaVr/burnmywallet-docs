@@ -55,3 +55,7 @@ a {
 .menu__link {
   color: var(--ifm-color-link);
 }
+
+.breadcrumbs__link {
+  color: var(--ifm-color-link) !important;
+}
