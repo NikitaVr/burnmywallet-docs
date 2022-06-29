@@ -1,8 +1,8 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 ---
 
-# Getting Started
+# Intro
 
 You can call our API from anywhere to check if a wallet has been reported as hacked
 

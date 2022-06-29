@@ -1,0 +1,44 @@
+---
+sidebar_position: 2
+---
+
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+
+# Fetch
+
+<Tabs>
+<TabItem value="js" label="JavaScript">
+
+```js
+const checkIsBurned = async (address, chain = "rinkeby") => {
+  const response = await fetch(
+    `https://burnmywallet.com/api/isBurned?address=${address}&chain=${chain}`
+  );
+  const data = await response.json();
+
+  return data.hacked;
+};
+```
+
+</TabItem>
+<TabItem value="py" label="TypeScript">
+
+```js
+export type IsBurnedResponse = {
+  msg?: string
+  hacked?: boolean
+}
+
+const checkIsBurned = async (address: string, chain = 'rinkeby') => {
+  const response = await fetch(
+    `https://burnmywallet.com/api/isBurned?address=${address}&chain=${chain}`
+  );
+  const data = await response.json() as IsBurnedResponse;
+
+  return data.hacked;
+}
+```
+
+</TabItem>
+</Tabs>
